@@ -1,0 +1,27 @@
+.root {
+    --de-d: #000000
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 320px){
+    .logo-container {
+        font-size: 23px;
+    }
+}
