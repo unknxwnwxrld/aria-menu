@@ -1,0 +1,48 @@
+header {
+    min-height: 100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: var(--h-color);
+    font-style: italic;
+}
+
+.header-section {
+    display: block;
+    background-image: url(../assets/bg/flover-bg.png) repeat 0 0;
+}
+
+.short-credits {
+    font-weight: lighter;
+    background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2px;
+}
+
+.short-credits-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 320px){
+    .logo {
+        font-size: 50px;
+    }
+}

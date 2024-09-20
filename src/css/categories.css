@@ -1,0 +1,10 @@
+.category {
+    display: flex;
+    width: 90%;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.category-text-container {
+}
