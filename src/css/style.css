@@ -17,7 +17,8 @@ body {
     padding: 0;
     background-color: var(--backgroung-color);
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;#
+    font-size: 16px;
+    transition: 0.3s;
 }
 
 header {
@@ -54,20 +55,23 @@ header {
 
 .category {
     display: flex;
-        margin: 10px;
-        background-color: var(--categoty-accent-color);
-        text-align: center;
-        border-radius: 30px;
-        justify-content: space-between;
-        text-decoration: none;
-        color: var(--h-color);
+    margin: 10px;
+    background-color: var(--categoty-accent-color);
+    text-align: center;
+    border-radius: 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--h-color);
+}
+
+.category-text-container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .category-title {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    
+    margin-block: 15px 0;    
 }
 
 .category-image {
@@ -90,6 +94,18 @@ header {
 
     .category-title {
         font-size: 30px;
+    }
+
+    #breakfast-category {
+        padding-left: 0;
+    }
+
+    #main-category {
+        padding-right: 0;
+    }
+    
+    #deserts-category {
+        padding-left: 0;
     }
 }
 
