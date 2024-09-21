@@ -4,11 +4,20 @@ header {
     font-weight: 700;
     color: var(--h-color);
     font-style: italic;
+    background-image: url(../assets/bg/temp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
 }
 
 .header-section {
     display: block;
-    background-image: url(../assets/bg/flover-bg.png) repeat 0 0;
+    background-image: url(../assets/bg/flover-bg.png);
 }
 
 .short-credits {
@@ -39,6 +48,31 @@ header {
     background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-searchbar {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: var(--backgroung-color);
+    box-shadow: 20px 20px 60px var(--dropshadow-color),
+    -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+.main-searchbar:focus {
+    outline-color: var(--h-grad-s-color);
+    background: var(--h-grad-f-color);
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+    inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
 }
 
 @media (min-width: 320px){
