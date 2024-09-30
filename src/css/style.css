@@ -35,6 +35,7 @@ body {
     box-shadow: 0px 0px 5px 2px rgba(41,41,41,.25);
     flex: 0 0 auto;
     padding-left: 0;
+    width: 100%;
 }
 
 .category-text-container {
@@ -51,11 +52,7 @@ body {
 }
 
 .categories-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    /*width: 100%;*/
 }
 
 

@@ -20,6 +20,11 @@ header {
     background-image: url(../assets/bg/flover-bg.png);
 }
 
+.short-header-section {
+    display: block;
+    background-image: url(../assets/bg/flover-bg.png);
+}
+
 .short-credits {
     font-weight: lighter;
     background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
@@ -42,7 +47,24 @@ header {
     margin: 0;
 }
 
+.food-type-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
 .logo {
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.short-logo {
     margin: 0;
     padding: 0;
     background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
