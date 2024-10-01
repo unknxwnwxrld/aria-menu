@@ -1,6 +1,7 @@
-@import url(../css/header.css);
-@import url(../css/buttons.css);
-@import url(../css/cards.css);
+@import url(./header.css);
+@import url(./buttons.css);
+@import url(./cards.css);
+@import url(./main.css);
 
 :root {
     --backgroung-color: #fffcfb;
@@ -10,6 +11,7 @@
     --categoty-accent-color: #f6f6f6;
     --dropshadow-color: #c5c5c5;
     --category-dropshadow-color: #c3ad9f;
+    --border-color: #c5c5c5
 
 }
 
@@ -23,17 +25,6 @@ body {
 }
 
 @media (min-width: 320px) {
-    .card-photo {
-        position: relative;
-        width: 90%;
-        height: 90%;
-        overflow: hidden;
-        border-radius: 25px;
-    }
 
-    .food-card-h {
-        font-size: 32px;
-        margin-block: 15px;
-    }
 }
 
