@@ -1,6 +1,6 @@
-@import url(./header.css);
-@import url(./buttons.css);
-@import url(./cards.css);
+@import url(../css/header.css);
+@import url(../css/buttons.css);
+@import url(../css/cards.css);
 
 :root {
     --backgroung-color: #fffcfb;
