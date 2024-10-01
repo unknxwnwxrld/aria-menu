@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Ariaparh's Menu</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -24,38 +24,83 @@
     </section>
     <section>
         <main>
-            <div class="categories-container">
-                <div class="scroll-categories-container">
-                    <a class="category" href="./src/html/breakfast.html" id="breakfast-category">
-                        <div class="category-text-container">
-                            <p class="category-title">Сніданок</p>
-                            <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <img class="category-image" src="./src/assets/category-photos/breakfast.png" alt="Сніданок">
+            <div class="food-cards-container">
+                <!---------------------------->
+                <!--     BREAKFAST CARD     -->
+                <!---------------------------->
+                <div class="food-card">
+                    <img src="./src/assets/category-photos/breakfast.png" alt="Breakfast" class="card-photo">
+                    <h2 class="food-card-h">Сніданки</h2>
+                    <a href="./src/html/breakfast.html">
+                        <button class="show-recipes-btn" >
+                            Подивитися рецепти
+                            <div class="show-recipes-btn-icon">
+                                <svg
+                                        height="24"
+                                        width="24"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </button>
                     </a>
                 </div>
-                <div class="scroll-categories-container">
-                    <a class="category" href="./src/html/main.html" id="main-category">
-                        <div class="category-text-container">
-                            <p class="category-title">Основне</p>
-                            <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <img class="category-image" src="./src/assets/category-photos/breakfast.png" alt="Сніданок">
+                <!----------------------------->
+                <!--        MAIN CARD        -->
+                <!----------------------------->
+                <div class="food-card">
+                    <img src="./src/assets/category-photos/main.png" alt="Main" class="card-photo">
+                    <h2 class="food-card-h">Основне</h2>
+                    <a href="./src/html/main.html">
+                        <button class="show-recipes-btn" >
+                            Подивитися рецепти
+                            <div class="show-recipes-btn-icon">
+                                <svg
+                                        height="24"
+                                        width="24"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </button>
                     </a>
                 </div>
-                <div class="scroll-categories-container">
-                    <a class="category" href="./src/html/deserts.html" id="deserts-category">
-                        <div class="category-text-container">
-                            <p class="category-title">Десерти</p>
-                            <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <img class="category-image" src="./src/assets/category-photos/deserts.png" alt="Десерти">
+                <!---------------------------->
+                <!--      DESERTS CARD      -->
+                <!---------------------------->
+                <div class="food-card">
+                    <img src="./src/assets/category-photos/deserts.png" alt="Deserts" class="card-photo">
+                    <h2 class="food-card-h">Десерти</h2>
+                    <a href="./src/html/deserts.html">
+                        <button class="show-recipes-btn" >
+                            Подивитися рецепти
+                            <div class="show-recipes-btn-icon">
+                                <svg
+                                        height="24"
+                                        width="24"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </button>
                     </a>
                 </div>
             </div>
