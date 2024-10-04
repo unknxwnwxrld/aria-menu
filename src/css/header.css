@@ -1,54 +1,7 @@
 header {
-    min-height: 100%;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: var(--h-color);
-    font-style: italic;
-    background-image: url(../assets/bg/temp.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-}
-
-.header-section {
-    display: block;
-    background-image: url(../assets/bg/flover-bg.png);
-}
-
-.short-credits {
-    font-weight: lighter;
-    background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 2px;
-}
-
-.short-credits-container {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bolder;
-    margin: 0;
-}
-
-.logo {
-    margin: 0;
-    padding: 0;
-    background: -webkit-linear-gradient(var(--h-grad-f-color), var(--h-grad-s-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
 }
 
 .search-container {
@@ -75,8 +28,29 @@ header {
     transition: 0.3s;
 }
 
+.header-container {
+    display: flex;
+    border-radius: 22px;
+    width: 96%;
+    background-color: var(--header-background-color);
+    position: sticky;
+    top: 0;
+}
+
+.icons-container {
+    width: 100%;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
 @media (min-width: 320px){
-    .logo {
-        font-size: 50px;
+    .header-container {
+        height: 65px;
+        margin-top: 18px;
     }
 }

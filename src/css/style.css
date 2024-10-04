@@ -5,9 +5,8 @@
 
 :root {
     --backgroung-color: #fffcfb;
+    --header-background-color: #D9D9D9;
     --h-color: #1A2424;
-    --h-grad-f-color: #D7AF91;
-    --h-grad-s-color: #d09263;
     --categoty-accent-color: #f6f6f6;
     --dropshadow-color: #c5c5c5;
     --category-dropshadow-color: #c3ad9f;
