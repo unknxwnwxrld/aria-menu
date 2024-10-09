@@ -4,30 +4,6 @@ header {
     justify-content: center;
 }
 
-.search-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-searchbar {
-    border: none;
-    padding: 1rem;
-    border-radius: 1rem;
-    background: var(--backgroung-color);
-    box-shadow: 20px 20px 60px var(--dropshadow-color),
-    -20px -20px 60px #ffffff;
-    transition: 0.3s;
-}
-
-.main-searchbar:focus {
-    outline-color: var(--h-grad-s-color);
-    background: var(--h-grad-f-color);
-    box-shadow: inset 20px 20px 60px #c5c5c5,
-    inset -20px -20px 60px #ffffff;
-    transition: 0.3s;
-}
-
 .header-container {
     display: flex;
     border-radius: 22px;
@@ -43,10 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
-
 
 @media (min-width: 320px){
     .header-container {

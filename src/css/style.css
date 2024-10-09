@@ -6,18 +6,22 @@
 :root {
     --backgroung-color: #fffcfb;
     --header-background-color: #D9D9D9;
-    --h-color: #1A2424;
-    --categoty-accent-color: #f6f6f6;
-    --dropshadow-color: #c5c5c5;
-    --category-dropshadow-color: #c3ad9f;
-    --border-color: #c5c5c5
-
+    --text-color: #1A2424;
+    --border-color: #c5c5c5;
+    --button-bg-color: #F60077;
+    --button-bg-shadow-color: #9e004b;
+    --dark-category-bg-color: #161616;
+    --dark-text-color: #BF0000;
+    --dark-button-bg-color: #620002;
+    --dark-button-bg-shadow-color: #420002;
+    --button-text-color: #FFFFFF;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: var(--backgroung-color);
+    color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     transition: 0.3s;

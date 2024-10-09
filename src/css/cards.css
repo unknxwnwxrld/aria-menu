@@ -1,6 +1,5 @@
 .food-card-h {
     text-decoration: none;
-    color: var(--h-color);
     float: left;
     text-align: center;
 }
@@ -13,25 +12,17 @@
 }
 
 .alchemy-section {
-    background-color: #161616;
-}
+    background-color: var(--dark-category-bg-color);
+    color: var(--dark-text-color);
 
-#alchemy-h {
-    color: #830000;
 }
 
 .meal-card {
     display: flex;
     margin: 5%;
     border-radius: 25px;
-    border: 1px solid var(--border-color);
     height: 150px;
 }
-
-.meal-card:hover {
-    border: 1px solid #1A2424;
-}
-
 .meal-content-container {
     display: flex;
     flex-direction: column;
@@ -43,11 +34,11 @@
 
 .meal-name {
     margin-top: 0;
+    text-align: center;
 }
 
 .meal-name-two-l {
-    margin-top: 5px;
-    margin-left: 25px;
+    text-align: center;
 }
 
 .translate-img-container {
@@ -79,5 +70,13 @@
         width: 150px;
         height: 150px;
         border-radius: 25px;
+    }
+
+    .meal-card {
+        margin-block: 45px;
+    }
+
+    .category-title {
+        margin-top: 45px;
     }
 }
